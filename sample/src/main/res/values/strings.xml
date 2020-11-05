@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">Libraries-Jarmark</string>
+	<string name="app_name">Libraries-Jarmark</string>
+	<string name="application_name">Ярмарка</string>
+
+	<string name="set_icon_button">Часто используемые иконки</string>
+	<string name="set_icon_title">Иконки</string>
 </resources>
