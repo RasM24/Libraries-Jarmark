@@ -1,0 +1,82 @@
+buildscript {
+	apply from: 'dependencies.gradle'
+
+	repositories {
+		google()
+		jcenter()
+	}
+	dependencies {
+		classpath 'com.android.tools.build:gradle:4.1.0'
+		classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:${versions.kotlin}"
+	}
+}
+
+allprojects {
+	repositories {
+		google()
+		jcenter()
+		mavenLocal()
+	}
+}
+
+def applicationModules = ["sample"]
+def androidLibs = []
+def javaLibs = []
+
+def getProjectsBy(List<String> libraries) {
+	subprojects.findAll { libraries.contains(it.name) }
+}
+
+configure(getProjectsBy(applicationModules)) {
+	apply plugin: 'com.android.application'
+	apply plugin: 'kotlin-android'
+	apply plugin: 'kotlin-android-extensions'
+	android {
+		compileSdkVersion 29
+		buildToolsVersion "29.0.3"
+
+		defaultConfig {
+			minSdkVersion 21
+			targetSdkVersion 29
+			versionCode 1
+			versionName "1.0"
+
+			testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+		}
+		kotlinOptions {
+			jvmTarget = "1.8"
+		}
+	}
+	dependencies {
+		implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:${versions.kotlin}"
+		implementation "androidx.core:core-ktx:${versions.androidxCore}"
+		implementation "androidx.appcompat:appcompat:${versions.appcompat}"
+	}
+}
+configure(getProjectsBy(androidLibs)) {
+	apply plugin: 'com.android.library'
+	apply plugin: 'kotlin-android'
+	apply plugin: 'kotlin-android-extensions'
+	android {
+		compileSdkVersion 29
+		buildToolsVersion "29.0.3"
+
+		defaultConfig {
+			minSdkVersion 21
+			targetSdkVersion 29
+			versionCode 1
+			versionName "1.0"
+		}
+	}
+	dependencies {
+		implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:${versions.kotlin}"
+		implementation "androidx.core:core-ktx:${versions.androidxCore}"
+	}
+}
+configure(getProjectsBy(javaLibs)) {
+	apply plugin: 'java-library'
+	apply plugin: 'kotlin'
+	dependencies {
+		implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:${versions.kotlin}"
+	}
+}
