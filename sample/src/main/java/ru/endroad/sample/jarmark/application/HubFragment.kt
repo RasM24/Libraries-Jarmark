@@ -15,5 +15,6 @@ class HubFragment : BaseFragment() {
 		setToolbarText(getString(R.string.application_name))
 
 		set_icon_button.setOnClickListener { router.openIconSetScreen() }
+		opacity_button.setOnClickListener { router.openOpacityScreen() }
 	}
 }

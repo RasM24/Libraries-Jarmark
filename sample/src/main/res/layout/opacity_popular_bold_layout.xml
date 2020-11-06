@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:paddingBottom="16dp"
+		android:paddingTop="24dp"
+		android:text="@string/opacity_bold_title"
+		android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:padding="4dp"
+		android:text="100%: Пример полупрозрачного текста"
+		android:textColor="#FF000000"
+		android:textStyle="bold" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:padding="4dp"
+		android:text="90%: Пример полупрозрачного текста"
+		android:textColor="#E6000000"
+		android:textStyle="bold" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:padding="4dp"
+		android:text="80%: Пример полупрозрачного текста"
+		android:textColor="#CC000000"
+		android:textStyle="bold" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:padding="4dp"
+		android:text="70%: Пример полупрозрачного текста"
+		android:textColor="#B3000000" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:padding="4dp"
+		android:text="60%: Пример полупрозрачного текста"
+		android:textColor="#99000000"
+		android:textStyle="bold" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:padding="4dp"
+		android:text="50%: Пример полупрозрачного текста"
+		android:textColor="#80000000" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:padding="4dp"
+		android:text="40%: Пример полупрозрачного текста"
+		android:textColor="#66000000"
+		android:textStyle="bold" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:padding="4dp"
+		android:text="30%: Пример полупрозрачного текста"
+		android:textColor="#4D000000"
+		android:textStyle="bold" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:padding="4dp"
+		android:text="20%: Пример полупрозрачного текста"
+		android:textColor="#33000000"
+		android:textStyle="bold" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:padding="4dp"
+		android:text="10%: Пример полупрозрачного текста"
+		android:textColor="#1A000000"
+		android:textStyle="bold" />
+</merge>

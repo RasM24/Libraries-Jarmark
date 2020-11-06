@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:paddingBottom="16dp"
+		android:paddingTop="24dp"
+		android:text="@string/opacity_to_hex_title"
+		android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+	<LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:orientation="horizontal">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="@string/opacity_to_hex_title_part1"
+			android:textAppearance="@style/TextAppearance.AppCompat.Caption" />
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="@string/opacity_to_hex_title_part2"
+			android:textAppearance="@style/TextAppearance.AppCompat.Caption" />
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="@string/opacity_to_hex_title_part3"
+			android:textAppearance="@style/TextAppearance.AppCompat.Caption" />
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="@string/opacity_to_hex_title_part4"
+			android:textAppearance="@style/TextAppearance.AppCompat.Caption" />
+	</LinearLayout>
+</merge>

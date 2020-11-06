@@ -9,6 +9,14 @@
 		android:id="@+id/set_icon_button"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
+		android:layout_marginTop="24dp"
 		android:text="@string/set_icon_button" />
+
+	<Button
+		android:id="@+id/opacity_button"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="24dp"
+		android:text="@string/opacity_button" />
 
 </LinearLayout>
