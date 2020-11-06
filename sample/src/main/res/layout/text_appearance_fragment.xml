@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:ignore="HardcodedText">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical">
+
+
+		<View
+			android:layout_width="match_parent"
+			android:layout_height="2dp"
+			android:background="?colorPrimary" />
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="16dp"
+			android:gravity="center"
+			android:text="---AppCompat TextAppearance---"
+			android:textAppearance="@style/TextAppearance.AppCompat.Title"
+			android:textColor="?colorPrimary" />
+
+		<View
+			android:layout_width="match_parent"
+			android:layout_height="2dp"
+			android:background="?colorPrimary" />
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:singleLine="true"
+			android:text="AppCompat Headline"
+			android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:singleLine="true"
+			android:text="AppCompat Title"
+			android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:singleLine="true"
+			android:text="AppCompat Subhead"
+			android:textAppearance="@style/TextAppearance.AppCompat.Subhead" />
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:singleLine="true"
+			android:text="AppCompat Body1"
+			android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:singleLine="true"
+			android:text="AppCompat Body2"
+			android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:singleLine="true"
+			android:text="AppCompat Caption"
+			android:textAppearance="@style/TextAppearance.AppCompat.Caption" />
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:singleLine="true"
+			android:text="AppCompat Large"
+			android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:singleLine="true"
+			android:text="AppCompat Medium"
+			android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:singleLine="true"
+			android:text="AppCompat Small"
+			android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:singleLine="true"
+			android:text="AppCompat Display1"
+			android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:singleLine="true"
+			android:text="Display2..."
+			android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:singleLine="true"
+			android:text="Display3..."
+			android:textAppearance="@style/TextAppearance.AppCompat.Display3" />
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:singleLine="true"
+			android:text="Display4..."
+			android:textAppearance="@style/TextAppearance.AppCompat.Display4" />
+
+		<View
+			android:layout_width="match_parent"
+			android:layout_height="2dp"
+			android:background="?colorPrimary" />
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="16dp"
+			android:gravity="center"
+			android:text="---Material TextAppearance---"
+			android:textAppearance="@style/TextAppearance.AppCompat.Title"
+			android:textColor="?colorPrimary" />
+
+		<View
+			android:layout_width="match_parent"
+			android:layout_height="2dp"
+			android:background="?colorPrimary" />
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:singleLine="true"
+			android:text="Material Headline1"
+			android:textAppearance="@style/TextAppearance.MaterialComponents.Headline1" />
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:singleLine="true"
+			android:text="Material Headline2"
+			android:textAppearance="@style/TextAppearance.MaterialComponents.Headline2" />
+
+		<TextView
+
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:singleLine="true"
+			android:text="Material Headline3"
+			android:textAppearance="@style/TextAppearance.MaterialComponents.Headline3" />
+
+		<TextView
+
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:singleLine="true"
+			android:text="Material Headline4"
+			android:textAppearance="@style/TextAppearance.MaterialComponents.Headline4" />
+
+		<TextView
+
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:singleLine="true"
+			android:text="Material Headline5"
+			android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5" />
+
+		<TextView
+
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:singleLine="true"
+			android:text="Material Headline6"
+			android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6" />
+
+		<TextView
+
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:singleLine="true"
+			android:text="Material Subtitle1"
+			android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1" />
+
+		<TextView
+
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:singleLine="true"
+			android:text="Material Subtitle2"
+			android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2" />
+
+		<TextView
+
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:singleLine="true"
+			android:text="Material Body1"
+			android:textAppearance="@style/TextAppearance.MaterialComponents.Body1" />
+
+		<TextView
+
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:singleLine="true"
+			android:text="Material Body2"
+			android:textAppearance="@style/TextAppearance.MaterialComponents.Body2" />
+
+		<TextView
+
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:singleLine="true"
+			android:text="Material Caption"
+			android:textAppearance="@style/TextAppearance.MaterialComponents.Caption" />
+
+		<TextView
+
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:singleLine="true"
+			android:text="Material Button"
+			android:textAppearance="@style/TextAppearance.MaterialComponents.Button" />
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:singleLine="true"
+			android:text="Material Overline"
+			android:textAppearance="@style/TextAppearance.MaterialComponents.Overline" />
+
+	</LinearLayout>
+
+</ScrollView>

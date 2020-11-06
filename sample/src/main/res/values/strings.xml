@@ -15,4 +15,7 @@
 	<string name="opacity_background_color_switcher">Background Color</string>
 	<string name="opacity_bold_title">Популярные значения. Bold</string>
 	<string name="opacity_normal_title">Популярные значения. Normal</string>
+
+	<string name="appearance_button">Примеры форматирования текста</string>
+	<string name="appearance_title">Форматирование</string>
 </resources>
