@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<color name="endroad_main_motive">#FAD21D</color>
+	<color name="endroad_application_motive">@color/blue_200</color>
+	<color name="endroad_libraries_motive">@color/orange_200</color>
+	<color name="endroad_sample_motive">@color/green_200</color>
+	<color name="endroad_testing_motive">@color/red_200</color>
+
+	<color name="blue_200">#749ACF</color>
+	<color name="blue_500">#687E9C</color>
+	<color name="blue_700">#264F87</color>
+	<color name="orange_200">#FFD183</color>
+	<color name="orange_500">#BFA57A</color>
+	<color name="orange_700">#A6782B</color>
+	<color name="green_200">#86E777</color>
+	<color name="green_500">#77AD6E</color>
+	<color name="green_700">#369627</color>
+	<color name="red_200">#FB828A</color>
+	<color name="red_500">#BD787D</color>
+	<color name="red_700">#A32A33</color>
+
+	<color name="yellow_200">#FAD21D</color>
+	<color name="yellow_700">#A68800</color>
+
+	<color name="black">#000000</color>
+	<color name="darker_gray">#333</color>
+	<color name="lighter_gray">#ddd</color>
+	<color name="white">#FFFFFF</color>
+
+	<attr name="splash_background" format="color|reference" />
+	<attr name="toolbar_color" format="color|reference" />
+</resources>

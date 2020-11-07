@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+	android:opacity="opaque">
+
+	<item android:drawable="?splash_background" />
+
+	<item
+		android:drawable="@mipmap/ic_endroad_libraries"
+		android:gravity="center" />
+
+</layer-list>
