@@ -1,4 +1,5 @@
 rootProject.name = "Libraries-Jarmark"
 include ':sample'
-include ':set-icons'
+include ':resources-icon'
+include ':resources-endroad-pack'
 include ':panorama-viewer'

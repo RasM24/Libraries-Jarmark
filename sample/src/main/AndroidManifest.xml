@@ -5,20 +5,22 @@
 	<application
 		android:name=".application.App"
 		android:allowBackup="true"
-		android:icon="@mipmap/ic_endroad_logo"
+		android:icon="@mipmap/ic_endroad_libraries"
 		android:label="@string/app_name"
 		android:supportsRtl="true"
-		android:theme="@style/ThemeSketchpad">
+		android:theme="@style/ThemeEndroad.Libraries">
 		<activity
 			android:name=".application.SingleActivity"
 			android:label="@string/app_name"
-			android:theme="@style/ThemeSketchpad.SplashTheme">
+			android:theme="@style/ThemeEndroad.Libraries.Splash">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
 
 				<category android:name="android.intent.category.LAUNCHER" />
 			</intent-filter>
 		</activity>
+
+		<activity android:name=".samples.resourcespack.ThemeActivity" />
 	</application>
 
 </manifest>
