@@ -1,5 +1,6 @@
 dependencies {
 	implementation project(":set-icons")
+	implementation(project(":panorama-viewer"))
 
 	implementation "com.google.android.material:material:${versions.material}"
 	implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:${versions.androidxViewModel}"
@@ -7,4 +8,7 @@ dependencies {
 	implementation "org.koin:koin-core:${versions.koin}"
 	implementation "org.koin:koin-core-ext:${versions.koin}"
 	implementation "org.koin:koin-androidx-viewmodel:${versions.koin}"
+
+	implementation "com.squareup.picasso:picasso:${versions.picasso}"
+	implementation "androidx.constraintlayout:constraintlayout:${versions.constraintLayout}"
 }

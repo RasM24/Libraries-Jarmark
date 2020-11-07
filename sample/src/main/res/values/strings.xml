@@ -18,4 +18,7 @@
 
 	<string name="appearance_button">Примеры форматирования текста</string>
 	<string name="appearance_title">Форматирование</string>
+
+	<string name="panorama_list_button">360 панорамы</string>
+	<string name="panorama_list_title">Панорамы</string>
 </resources>
