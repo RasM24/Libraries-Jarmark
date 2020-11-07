@@ -20,7 +20,7 @@ allprojects {
 }
 
 def applicationModules = ["sample"]
-def androidLibs = ["set-icons", "panorama-viewer"]
+def androidLibs = ["resources-icon", "panorama-viewer"]
 def javaLibs = []
 
 def getProjectsBy(List<String> libraries) {
