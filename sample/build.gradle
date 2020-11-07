@@ -1,6 +1,8 @@
 dependencies {
 	implementation project(':resources-icon')
-	implementation(project(":panorama-viewer"))
+	implementation project(":resources-endroad-pack")
+	implementation project(":panorama-viewer")
+
 
 	implementation "com.google.android.material:material:${versions.material}"
 	implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:${versions.androidxViewModel}"

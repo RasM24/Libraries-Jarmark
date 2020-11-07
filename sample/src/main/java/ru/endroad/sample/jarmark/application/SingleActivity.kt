@@ -11,7 +11,7 @@ import ru.endroad.sample.jarmark.router.Navigator
 class SingleActivity : AppCompatActivity() {
 
 	private val layout = R.layout.root_activity
-	private val theme = R.style.ThemeSketchpad
+	private val theme = R.style.ThemeEndroad_Libraries
 
 	private val navigator: Navigator by inject()
 
