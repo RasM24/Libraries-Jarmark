@@ -21,4 +21,11 @@
 
 	<string name="panorama_list_button">360 панорамы</string>
 	<string name="panorama_list_title">Панорамы</string>
+
+	<string name="theme_button">темы</string>
+	<string name="application_theme_button">Основные приложения</string>
+	<string name="libraries_theme_button">Приложения с библиотечными примерами</string>
+	<string name="sample_theme_button">Приложения для примеров кода</string>
+	<string name="testing_theme_button">Тестовых приложений</string>
+	<string name="resource_pack_app_list_title">Выберите тип приложения для показа соответствующей темы</string>
 </resources>

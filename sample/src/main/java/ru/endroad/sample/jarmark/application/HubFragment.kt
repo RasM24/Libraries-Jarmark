@@ -18,5 +18,6 @@ class HubFragment : BaseFragment() {
 		opacity_button.setOnClickListener { router.openOpacityScreen() }
 		appearance_button.setOnClickListener { router.openTextAppearanceScreen() }
 		panorama_list_button.setOnClickListener { router.openPanorama360List() }
+		theme_button.setOnClickListener { router.openThemeList() }
 	}
 }

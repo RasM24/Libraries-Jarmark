@@ -17,6 +17,13 @@ class Navigator(
 		fragmentManager.open(fragment, container)
 	}
 
+	fun open(destination: Destination) {
+		when (destination) {
+			is ActivityDestination -> hubActivity?.run { startActivity(destination.createIntent(baseContext)) }
+			else                   -> throw IllegalArgumentException("Destination ${destination::class} is not supported")
+		}
+	}
+
 	fun replace(fragment: Fragment) {
 		fragmentManager.replace(fragment, container)
 	}
